@@ -20,7 +20,7 @@ app.use(express.json());
 app.use(cookieParser());
 
 app.get("/", (req, res) => {
-  res.send("Server is running DB postgreSQL...");
+  res.send("Server is running DB postgreSQL... 😃 ");
 });
 
 app.use("/api/auth", authRouter);
